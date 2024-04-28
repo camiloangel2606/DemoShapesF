@@ -1,3 +1,4 @@
+
 public class Square extends Shape {
     private int width = 0, height = 0;
 

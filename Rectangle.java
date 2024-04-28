@@ -1,3 +1,4 @@
+
 public class Rectangle extends Square {
     private int height = 0, width = 0;
 

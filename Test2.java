@@ -1,3 +1,4 @@
+
 public class Test2 extends Terminal {
     public static void main(String[] args) {
 
@@ -22,8 +23,9 @@ public class Test2 extends Terminal {
         for (Shape shape : shapes) {
             areaTotal += shape.getArea();
             perimTotal += shape.getPerimeter();
-            Console.writeLine("Area total= %.2f, Perimetro total= %.2f", shape.getArea(), shape.getPerimeter());
+            System.out.printf("Area total= %.2f, Perimetro total= %.2f", shape.getArea(), shape.getPerimeter());
+            System.out.println();
         }
-        Console.writeLine("Area total= %.2f, Perimetro total= %.2f", areaTotal, perimTotal);
+        System.out.printf("Area total= %.2f, Perimetro total= %.2f", areaTotal, perimTotal);
     }
 }
